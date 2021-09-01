@@ -3,16 +3,17 @@
   margin: 10px;
   overflow: hidden;
   margin-right: 16px;
-  font-family: arial,sans-serif;
+  font-family: arial, sans-serif;
   font-size: 13px;
 }
 
 .headerli a {
   display: block;
-  color: black;
+  color: rgba(0, 0, 0, 0.87);
   text-align: center;
-  padding: 5px 5px;
+  padding: 10px 15px;
   text-decoration: none;
+  float: right;
 }
 
 .headerli a:hover {
@@ -21,7 +22,7 @@
 
 .container {
   text-align: center;
-  margin: 100px;
+  margin-top: 200px;
 }
 
 .search-area {
@@ -32,12 +33,13 @@
   z-index: 3;
   height: 44px;
   margin: 0 auto;
-  margin-top: -77px;
+  margin-top: 2%;
   width: 582px;
+  border-radius: 20px;
 }
 
 .search-area:hover {
-box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.24), 0 2px 5px 0 rgba(0, 0, 0, 0.19);
 }
 
 .search {
@@ -69,6 +71,7 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
   display: flex;
   flex: 1;
   flex-wrap: wrap;
+  border-radius: 20px;
 }
 
 .input-area {
@@ -102,6 +105,30 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
   text-align: start;
   appearance: textfield;
   cursor: text;
+  width: 480px;
+  border: none;
+}
+.buttons {
+  text-align: center;
+  margin: 11px 4px 4px 11px;
+}
+
+.btn_stil {
+  background-color: #f8f9fa;
+  border: 1px solid #f2f2f2;
+  border-radius: 4px;
+  color: #5f6368;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0px 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+}
+.btn_stil:hover {
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.24), 0 2px 5px 0 rgba(0, 0, 0, 0.19);
 }
 
 .googlesearch {
@@ -134,10 +161,12 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
   width: 100%;
   margin-left: -8px;
   line-height: 10px;
+  background: #f2f2f2;
 }
 
 .footerli {
   float: left;
+  list-style-type: none;
 }
 
 .footerli a {
@@ -154,4 +183,16 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
 
 .footerli a:hover {
   text-decoration: underline;
+}
+
+.tia {
+  background: url("//www.gstatic.com/inputtools/images/tia.png") no-repeat
+    center;
+  height: 32px;
+  width: 32px;
+  cursor: pointer;
+  line-height: 54px;
+  font-size: 14px;
+  color: #222;
+  vertical-align: middle;
 }
